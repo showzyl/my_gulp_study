@@ -3,30 +3,69 @@
  */
 'use strict';
 
-const sequencify = require('./sequencify');
+//const sequencify = require('./sequencify');
+//
+//let items = {
+//  a: {
+//    name: 'a',
+//    dep: []
+//    // other properties as needed
+//  },
+//  b: {
+//    name: 'b',
+//    dep: ['a']
+//  },
+//  c: {
+//    name: 'c',
+//    dep: ['a']
+//  },
+//  d: {
+//    name: 'd',
+//    dep: ['c']
+//  }
+//};
+//
+//let names = ['d', 'b', 'c', 'a', 'e']; // The names of the items you want arranged, need not be all
+//
+//let results = sequencify(items, names);
+//
+//console.log(results);
 
-let items = {
-  a: {
-    name: 'a',
-    dep: []
-    // other properties as needed
-  },
-  b: {
-    name: 'b',
-    dep: ['a']
-  },
-  c: {
-    name: 'c',
-    dep: ['a']
-  },
-  d: {
-    name: 'd',
-    dep: ['c']
-  }
-};
+//let argv = process.argv.slice( 2, process.argv.length );
 
-let names = ['d', 'b', 'c', 'a', 'e']; // The names of the items you want arranged, need not be all
+let argv = process.argv;
 
-let results = sequencify(items, names);
+argv.shift();
+argv.shift();
 
-console.log(results);
+
+console.log(argv);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

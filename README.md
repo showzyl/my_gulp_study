@@ -16,4 +16,4 @@
 
 ##sequencify模块
 
-- `递归依赖`
+- `递归依赖`(https://github.com/robrich/sequencify)
